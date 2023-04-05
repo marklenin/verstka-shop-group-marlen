@@ -1,0 +1,215 @@
+.card {
+  /* flex-direction: row; */
+  /* border: 2px solid rgb(107, 164, 107); */
+  text-align: center;
+  margin-top: 120px;
+  max-width: 300px;
+  width: 100%;
+  /* padding: 5px; */
+  border-radius: 10px;
+  transition: 0.1s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card-block {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 0 auto; */
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+  background-color: rgb(219, 222, 222);
+}
+h3 {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: bold;
+}
+.list {
+  width: 219px;
+  height: 24px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #808080;
+  flex: none;
+  order: 4;
+  align-self: flex-start;
+  flex-grow: 0;
+}
+
+/* .list {
+  margin-top: 2706px;
+  margin-left: 245px;
+  margin-right: 1136px;
+  margin-bottom: 599px;
+} */
+
+.btn {
+  width: 41px;
+  height: 41px;
+  border: 2px solid black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.twobtn {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+  justify-content: center;
+  gap: 1em;
+}
+
+.btns {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.allInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs {
+  width: 165px;
+  height: 35px;
+  background-color: white;
+  margin-right: 7px;
+  /* cursor: pointer; */
+  border: 2px solid rgb(0, 70, 0);
+  transition: 0.3s;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.inputs:hover {
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  transition: 0.1s;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+:hover::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+}
+
+#btnCreate {
+  width: 165px;
+  height: 35px;
+  background-color: white;
+  margin-right: 7px;
+  cursor: pointer;
+  border: 2px solid hwb(120 0% 68%);
+  transition: 0.3s;
+  text-align: center;
+  margin-top: 1em;
+  align-self: flex-end;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+#btnCreate:hover {
+  background-color: hwb(120 0% 50%);
+  color: white;
+  transition: 0.3s;
+  border-radius: 5px;
+  /* font-size: 1em; */
+}
+
+#btn1 {
+  width: 165px;
+  height: 50px;
+  background-color: white;
+  margin-right: 7px;
+  cursor: pointer;
+  border: 1px solid;
+  transition: 0.3s;
+}
+
+#btn1:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#btn2 {
+  width: 195px;
+  height: 50px;
+  background-color: white;
+  margin-right: 7px;
+  cursor: pointer;
+  border: 1px solid;
+  transition: 0.3s;
+}
+#btn2:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#btn3:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#btn4:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#btn5:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#btn3 {
+  width: 220px;
+  height: 50px;
+  background-color: white;
+  margin-right: 7px;
+  cursor: pointer;
+  border: 1px solid;
+  transition: 0.3s;
+}
+#btn4 {
+  width: 230px;
+  height: 50px;
+  background-color: white;
+  margin-right: 7px;
+  cursor: pointer;
+  border: 1px solid;
+  transition: 0.3s;
+}
+
+#btn5 {
+  width: 230px;
+  height: 50px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid;
+  transition: 0.3s;
+}

@@ -1,0 +1,28 @@
+{
+  "profiles": [
+    {
+      "name": "margo",
+      "image": "shhkn",
+      "number": "988089",
+      "skills": "khh",
+      "price": "98879879",
+      "id": 1
+    },
+    {
+      "name": "a;ldfj",
+      "image": ";adkjfj",
+      "number": ";adkjfj",
+      "skills": ";asdklff",
+      "price": ";adf",
+      "id": 2
+    },
+    {
+      "name": ";adkkjf",
+      "image": ";asdk",
+      "number": ";ad",
+      "skills": "a;sdf",
+      "price": ";ald",
+      "id": 3
+    }
+  ]
+}
